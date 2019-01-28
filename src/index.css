@@ -20,8 +20,8 @@ media query for tablet or smaller screen
 @media screen and (max-width: 1024px) {
     :root {
         /* calculator dimensions */
-        --calculator-height: 100vh%;
-        --calculator-width: 100vh%;
+        --calculator-height: 100%;
+        --calculator-width: 100%;
     }
 }
 
