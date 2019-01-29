@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import style from './Calculator.module.css';
 import '../../components/Display/Display';
 import Display from '../../components/Display/Display';
+import Keypad from '../../components/Keypad/Keypad';
 
 class Calculator extends Component {
     state = {
@@ -25,11 +26,18 @@ class Calculator extends Component {
     };
 
     render() {
-        const { displayValue } = this.state;
+        const { displayValue, numbers, operators } = this.state;
 
         return (
             <div className={style.CalculatorContainer}>
                 <Display displayValue={displayValue} />
+                <Keypad
+                    callOperator={this.callOperator}
+                    numbers={numbers}
+                    operators={operators}
+                    setOperator={this.setOperator}
+                    updateDisplay={this.updateDisplay}
+                />
             </div>
         );
     }

@@ -21,11 +21,11 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <p
-        className="display-value"
+        className="DisplayValue"
       >
         
       </p>,
-      "className": "display-container",
+      "className": "DisplayContainer",
     },
     "ref": null,
     "rendered": Object {
@@ -34,7 +34,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "",
-        "className": "display-value",
+        "className": "DisplayValue",
       },
       "ref": null,
       "rendered": "",
@@ -49,11 +49,11 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <p
-          className="display-value"
+          className="DisplayValue"
         >
           
         </p>,
-        "className": "display-container",
+        "className": "DisplayContainer",
       },
       "ref": null,
       "rendered": Object {
@@ -62,7 +62,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "",
-          "className": "display-value",
+          "className": "DisplayValue",
         },
         "ref": null,
         "rendered": "",
