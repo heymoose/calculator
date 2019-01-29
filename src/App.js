@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Calculator from './containers/Calculator/Calculator';
-import './App.css';
+import style from './App.module.css';
 
 class App extends Component {
     render() {
         return (
-            <div className='app-container'>
+            <div className={style.AppContainer}>
                 <Calculator />
             </div>
         );

@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import style from './Display.module.css';
 
 const Display = ({ displayValue }) => (
-    <div className='display-container'>
-        <p className='display-value'>{displayValue}</p>
+    <div className={style.DisplayContainer}>
+        <p className={style.DisplayValue}>{displayValue}</p>
     </div>
 );
 
